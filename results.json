@@ -1,0 +1,1690 @@
+[
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 19816,
+    "rps": 6606,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 19816
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 19466,
+    "rps": 6490,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 19466
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 26107,
+    "rps": 8702.67,
+    "mean_ms": 1.01,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 26107
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 26106,
+    "rps": 8702.67,
+    "mean_ms": 1.01,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 26106
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 26938,
+    "rps": 8980,
+    "mean_ms": 5.09,
+    "p97_5_ms": 6,
+    "p99_ms": 8,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 26938
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 27128,
+    "rps": 9044,
+    "mean_ms": 5.04,
+    "p97_5_ms": 5,
+    "p99_ms": 6,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27128
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 27349,
+    "rps": 9116,
+    "mean_ms": 10.63,
+    "p97_5_ms": 11,
+    "p99_ms": 12,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27349
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 27154,
+    "rps": 9052,
+    "mean_ms": 10.58,
+    "p97_5_ms": 11,
+    "p99_ms": 16,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27154
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 105.17,
+    "p97_5_ms": 107,
+    "p99_ms": 107,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 105.37,
+    "p97_5_ms": 109,
+    "p99_ms": 109,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 893.87,
+    "p97_5_ms": 1056,
+    "p99_ms": 1056,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 893.44,
+    "p97_5_ms": 1056,
+    "p99_ms": 1056,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 100,
+    "rps": 9.1,
+    "mean_ms": 3652.51,
+    "p97_5_ms": 5777,
+    "p99_ms": 5883,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 11.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 100,
+    "rps": 9.1,
+    "mean_ms": 3430.69,
+    "p97_5_ms": 6936,
+    "p99_ms": 7040,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 11.02
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 200,
+    "rps": 9.1,
+    "mean_ms": 7461.42,
+    "p97_5_ms": 19122,
+    "p99_ms": 19434,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 200
+      }
+    },
+    "duration_s": 22.03
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 200,
+    "rps": 9.1,
+    "mean_ms": 6819.59,
+    "p97_5_ms": 14212,
+    "p99_ms": 14523,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 200
+      }
+    },
+    "duration_s": 22.04
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 101.73,
+    "p97_5_ms": 103,
+    "p99_ms": 103,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 102.04,
+    "p97_5_ms": 105,
+    "p99_ms": 105,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 280,
+    "rps": 93.34,
+    "mean_ms": 104.72,
+    "p97_5_ms": 129,
+    "p99_ms": 130,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 280
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 290,
+    "rps": 96.67,
+    "mean_ms": 102.97,
+    "p97_5_ms": 109,
+    "p99_ms": 111,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 290
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 1400,
+    "rps": 466.67,
+    "mean_ms": 105.06,
+    "p97_5_ms": 122,
+    "p99_ms": 126,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1400
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 1400,
+    "rps": 466.67,
+    "mean_ms": 103.91,
+    "p97_5_ms": 122,
+    "p99_ms": 123,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1400
+      }
+    },
+    "duration_s": 3.02
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 2800,
+    "rps": 933.34,
+    "mean_ms": 104.28,
+    "p97_5_ms": 119,
+    "p99_ms": 126,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2800
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "FastAPI",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 2800,
+    "rps": 933.34,
+    "mean_ms": 104.65,
+    "p97_5_ms": 126,
+    "p99_ms": 129,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2800
+      }
+    },
+    "duration_s": 3.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 46196,
+    "rps": 15401.34,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 46196
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 46530,
+    "rps": 15510.67,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 46530
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 60969,
+    "rps": 20322.67,
+    "mean_ms": 0.03,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 60969
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 60071,
+    "rps": 20024,
+    "mean_ms": 0.04,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 60071
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 60152,
+    "rps": 20050.67,
+    "mean_ms": 2.16,
+    "p97_5_ms": 4,
+    "p99_ms": 4,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 60152
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 59946,
+    "rps": 19981.34,
+    "mean_ms": 2.18,
+    "p97_5_ms": 4,
+    "p99_ms": 4,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 59946
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 58972,
+    "rps": 19661.34,
+    "mean_ms": 4.5,
+    "p97_5_ms": 6,
+    "p99_ms": 9,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 58972
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 60240,
+    "rps": 20082.67,
+    "mean_ms": 4.43,
+    "p97_5_ms": 6,
+    "p99_ms": 8,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 60240
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 10,
+    "mean_ms": 99.44,
+    "p97_5_ms": 101,
+    "p99_ms": 101,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 100.8,
+    "p97_5_ms": 116,
+    "p99_ms": 116,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 753.84,
+    "p97_5_ms": 1499,
+    "p99_ms": 1499,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 764.34,
+    "p97_5_ms": 1500,
+    "p99_ms": 1500,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 100,
+    "rps": 10,
+    "mean_ms": 3209.87,
+    "p97_5_ms": 7807,
+    "p99_ms": 7907,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 10.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 100,
+    "rps": 10,
+    "mean_ms": 3513.54,
+    "p97_5_ms": 5405,
+    "p99_ms": 5505,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 10.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 165,
+    "rps": 9.71,
+    "mean_ms": 5465.1,
+    "p97_5_ms": 11109,
+    "p99_ms": 11409,
+    "errors": 35,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 165
+      }
+    },
+    "duration_s": 17.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 163,
+    "rps": 9.59,
+    "mean_ms": 5437.74,
+    "p97_5_ms": 10911,
+    "p99_ms": 11211,
+    "errors": 37,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 163
+      }
+    },
+    "duration_s": 17.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 101.69,
+    "p97_5_ms": 103,
+    "p99_ms": 103,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 101.94,
+    "p97_5_ms": 103,
+    "p99_ms": 103,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 280,
+    "rps": 93.34,
+    "mean_ms": 104,
+    "p97_5_ms": 108,
+    "p99_ms": 109,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 280
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 280,
+    "rps": 93.34,
+    "mean_ms": 104.13,
+    "p97_5_ms": 111,
+    "p99_ms": 112,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 280
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 1400,
+    "rps": 466.67,
+    "mean_ms": 106.05,
+    "p97_5_ms": 128,
+    "p99_ms": 129,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1400
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 1400,
+    "rps": 466.67,
+    "mean_ms": 106.09,
+    "p97_5_ms": 126,
+    "p99_ms": 131,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1400
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 2740,
+    "rps": 913.34,
+    "mean_ms": 107.14,
+    "p97_5_ms": 130,
+    "p99_ms": 132,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2740
+      }
+    },
+    "duration_s": 3.02
+  },
+  {
+    "framework": "Express",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 2805,
+    "rps": 935,
+    "mean_ms": 105.04,
+    "p97_5_ms": 132,
+    "p99_ms": 136,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2805
+      }
+    },
+    "duration_s": 3.02
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 89316,
+    "rps": 29773.34,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 89316
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 87317,
+    "rps": 29106.67,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 87317
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 270661,
+    "rps": 90208,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 270661
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 270589,
+    "rps": 90186.67,
+    "mean_ms": 0.01,
+    "p97_5_ms": 0,
+    "p99_ms": 0,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 270589
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 268433,
+    "rps": 89482.67,
+    "mean_ms": 0.05,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 268433
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 263002,
+    "rps": 87690.67,
+    "mean_ms": 0.06,
+    "p97_5_ms": 1,
+    "p99_ms": 1,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 263002
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 258891,
+    "rps": 86282.67,
+    "mean_ms": 0.89,
+    "p97_5_ms": 2,
+    "p99_ms": 3,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 258891
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 265998,
+    "rps": 88672,
+    "mean_ms": 0.88,
+    "p97_5_ms": 1,
+    "p99_ms": 2,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 265998
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 10,
+    "mean_ms": 99.47,
+    "p97_5_ms": 100,
+    "p99_ms": 100,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 10,
+    "mean_ms": 99.37,
+    "p97_5_ms": 100,
+    "p99_ms": 100,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 778.07,
+    "p97_5_ms": 1799,
+    "p99_ms": 1799,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 30,
+    "rps": 7.5,
+    "mean_ms": 798.14,
+    "p97_5_ms": 1800,
+    "p99_ms": 1800,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 30
+      }
+    },
+    "duration_s": 4.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 100,
+    "rps": 10,
+    "mean_ms": 3290.49,
+    "p97_5_ms": 8309,
+    "p99_ms": 8409,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 10.02
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 100,
+    "rps": 10,
+    "mean_ms": 3359.62,
+    "p97_5_ms": 8605,
+    "p99_ms": 8705,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 100
+      }
+    },
+    "duration_s": 10.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 200,
+    "rps": 10,
+    "mean_ms": 6461.67,
+    "p97_5_ms": 12405,
+    "p99_ms": 12705,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 200
+      }
+    },
+    "duration_s": 20.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 200,
+    "rps": 10,
+    "mean_ms": 6523.54,
+    "p97_5_ms": 12311,
+    "p99_ms": 12610,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 200
+      }
+    },
+    "duration_s": 20.02
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 1,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 101.94,
+    "p97_5_ms": 104,
+    "p99_ms": 104,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 1,
+    "repeat": 2,
+    "requests": 29,
+    "rps": 9.67,
+    "mean_ms": 101.9,
+    "p97_5_ms": 105,
+    "p99_ms": 105,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 29
+      }
+    },
+    "duration_s": 3
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 1,
+    "requests": 290,
+    "rps": 96.67,
+    "mean_ms": 102.3,
+    "p97_5_ms": 111,
+    "p99_ms": 113,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 290
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 10,
+    "repeat": 2,
+    "requests": 281,
+    "rps": 93.67,
+    "mean_ms": 103.12,
+    "p97_5_ms": 112,
+    "p99_ms": 113,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 281
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 1,
+    "requests": 1450,
+    "rps": 483.34,
+    "mean_ms": 102.54,
+    "p97_5_ms": 112,
+    "p99_ms": 116,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1450
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 50,
+    "repeat": 2,
+    "requests": 1450,
+    "rps": 483.34,
+    "mean_ms": 102.93,
+    "p97_5_ms": 117,
+    "p99_ms": 119,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 1450
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 1,
+    "requests": 2861,
+    "rps": 953.67,
+    "mean_ms": 102.92,
+    "p97_5_ms": 120,
+    "p99_ms": 121,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2861
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "framework": "Fastify",
+    "scenario": "isolated",
+    "route": "/slow_endpoint_fixed",
+    "concurrency": 100,
+    "repeat": 2,
+    "requests": 2900,
+    "rps": 966.67,
+    "mean_ms": 102.58,
+    "p97_5_ms": 116,
+    "p99_ms": 118,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 2900
+      }
+    },
+    "duration_s": 3.01
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint",
+    "route": "/high_cpu_endpoint",
+    "repeat": 1,
+    "concurrency": 1,
+    "requests": 26,
+    "rps": 5.2,
+    "mean_ms": 186.85,
+    "p97_5_ms": 197,
+    "p99_ms": 197,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 26
+      }
+    },
+    "duration_s": 5.01
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint",
+    "route": "/",
+    "repeat": 1,
+    "concurrency": 1,
+    "requests": 26,
+    "rps": 5.2,
+    "mean_ms": 186.85,
+    "p97_5_ms": 197,
+    "p99_ms": 197,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 26
+      }
+    },
+    "duration_s": 5.01
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint",
+    "route": "/high_cpu_endpoint",
+    "repeat": 2,
+    "concurrency": 1,
+    "requests": 27,
+    "rps": 5.4,
+    "mean_ms": 183.08,
+    "p97_5_ms": 193,
+    "p99_ms": 193,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27
+      }
+    },
+    "duration_s": 5
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint",
+    "route": "/",
+    "repeat": 2,
+    "concurrency": 1,
+    "requests": 27,
+    "rps": 5.4,
+    "mean_ms": 183.12,
+    "p97_5_ms": 193,
+    "p99_ms": 193,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27
+      }
+    },
+    "duration_s": 5
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint_fixed",
+    "route": "/high_cpu_endpoint_fixed",
+    "repeat": 1,
+    "concurrency": 1,
+    "requests": 27,
+    "rps": 5.4,
+    "mean_ms": 178.19,
+    "p97_5_ms": 193,
+    "p99_ms": 193,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 27
+      }
+    },
+    "duration_s": 5
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint_fixed",
+    "route": "/",
+    "repeat": 1,
+    "concurrency": 1,
+    "requests": 267,
+    "rps": 53.4,
+    "mean_ms": 18.27,
+    "p97_5_ms": 31,
+    "p99_ms": 31,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 267
+      }
+    },
+    "duration_s": 5
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint_fixed",
+    "route": "/high_cpu_endpoint_fixed",
+    "repeat": 2,
+    "concurrency": 1,
+    "requests": 25,
+    "rps": 5,
+    "mean_ms": 193.48,
+    "p97_5_ms": 276,
+    "p99_ms": 276,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 25
+      }
+    },
+    "duration_s": 5
+  },
+  {
+    "scenario": "cpu_with_root",
+    "framework": "FastAPI",
+    "cpu_variant": "/high_cpu_endpoint_fixed",
+    "route": "/",
+    "repeat": 2,
+    "concurrency": 1,
+    "requests": 235,
+    "rps": 47,
+    "mean_ms": 20.72,
+    "p97_5_ms": 36,
+    "p99_ms": 37,
+    "errors": 0,
+    "timeouts": 0,
+    "non2xx": 0,
+    "status_codes": {
+      "200": {
+        "count": 235
+      }
+    },
+    "duration_s": 5
+  }
+]

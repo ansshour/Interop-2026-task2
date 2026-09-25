@@ -1,0 +1,20 @@
+{
+	"name": "task_2_interop",
+	"version": "1.0.0",
+	"description": "## Краткий вывод",
+	"main": "benchmark.js",
+	"scripts": {
+		"express": "node express-server.js",
+		"fastify": "node fastify-server.js",
+		"benchmark": "node benchmark.js"
+	},
+	"dependencies": {
+		"autocannon": "^8.0.0",
+		"express": "^5.1.0",
+		"fastify": "^4.29.1"
+	},
+  "devDependencies": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
